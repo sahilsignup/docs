@@ -1,4 +1,3 @@
-const validateCommand = require('@swup/cli/src/commands/validate');
 let output = '';
 
 console.log = (str) => {
@@ -19,6 +18,7 @@ validateCommand.flags = {
 
 exports.handler = async function(event, context, callback) {
     const params = new URLSearchParams(event.body);
+    const validateCommand = require('@swup/cli/src/commands/validate');
     const mainUrl = params.get('main_url');
 
     await validateCommand.run();
