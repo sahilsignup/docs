@@ -19,5 +19,11 @@
   "homepage": "https://github.com/swup/docs#readme",
   "dependencies": {
     "@swup/cli": "^4.0.1"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^13.0.0",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^8.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0"
   }
 }
