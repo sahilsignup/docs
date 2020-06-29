@@ -1,0 +1,22 @@
+/temp/btfj.dat
+/vendor
+!/vendor/others
+deployment
+
+.DS_Store
+*.DS_Store
+!.gitignore
+!.htaccess
+!web.config
+app/config/config.local.neon
+node_modules
+bower_components
+Thumbs.db
+nbproject/
+wiki-common
+wiki-images files
+wiki-wishlist
+*.sublime-project
+*.sublime-workspace
+.editorconfig
+.idea
