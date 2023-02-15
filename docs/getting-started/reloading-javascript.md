@@ -77,7 +77,7 @@ This is only an example, but it should give some people an idea of how to approa
 
 **Note:** There is a [scripts plugin]({{ "/plugins/scripts-plugin" | relative_url }}) which can also help you in situations,
 where you're not in control over what scripts are included in a page.
-Keep in mind that it's usage is discouraged.
+Keep in mind that its usage is discouraged.
 
 ## Component based approach
 
